@@ -1,8 +1,9 @@
 /* store global styles that apply to your entire React application */
 
 body {
-  width: 100vw;
-  height: 100vh;
+  height: 100svh;
+  width: 100svw;
+  background-color: white;
   #root {
     width: 100%;
     height: 100%;
