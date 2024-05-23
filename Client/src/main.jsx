@@ -9,7 +9,7 @@ import HomePage from "./Routes/Home/home.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/home",
     element: <HomePage />,
   },
 ]);
