@@ -31,9 +31,6 @@ export default function PageTemplate({ children }) {
       </header>
       <div className="pagetemplate__body">
         <div className="pagetemplate__content">{children}</div>
-        <div className="pagetemplate__wrapper">
-            <StatsDashboard/>
-        </div> {/* component hidden on mobile */}
       </div>
     </div>
   );
